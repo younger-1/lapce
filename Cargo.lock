@@ -239,7 +239,7 @@ version = "0.37.3+1.3.251"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "39e9c3835d686b0a6084ab4234fcd1b07dbf6e4767dce60874b12356a25ecd4a"
 dependencies = [
- "libloading 0.7.3",
+ "libloading 0.7.4",
 ]
 
 [[package]]
@@ -2487,7 +2487,7 @@ dependencies = [
  "bitflags 1.3.2",
  "com-rs",
  "libc",
- "libloading 0.7.3",
+ "libloading 0.7.4",
  "thiserror",
  "widestring",
  "winapi",
@@ -3115,7 +3115,7 @@ dependencies = [
  "itertools",
  "lapce-rpc",
  "lapce-xi-rope",
- "libloading 0.7.3",
+ "libloading 0.8.1",
  "lsp-types",
  "once_cell",
  "slotmap",
@@ -3266,9 +3266,9 @@ dependencies = [
 
 [[package]]
 name = "libloading"
-version = "0.7.3"
+version = "0.7.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "efbc0f03f9a775e9f6aed295c6a1ba2253c5757a9e03d55c6caa46a681abcddd"
+checksum = "b67380fd3b2fbe7527a606e18729d21c6f3951633d0500574c4dc22d2d638b9f"
 dependencies = [
  "cfg-if",
  "winapi",
@@ -7436,7 +7436,7 @@ dependencies = [
  "as-raw-xcb-connection",
  "gethostname 0.3.0",
  "libc",
- "libloading 0.7.3",
+ "libloading 0.7.4",
  "nix 0.26.4",
  "once_cell",
  "winapi",
