@@ -1316,12 +1316,8 @@ impl WindowTabData {
             SourceControlCommit => {
                 self.source_control.commit();
             }
-            SourceControlCopyActiveFileRemoteUrl => {
-                // TODO:
-            }
-            SourceControlDiscardActiveFileChanges => {
-                // TODO:
-            }
+            SourceControlCopyActiveFileRemoteUrl => {}
+            SourceControlDiscardActiveFileChanges => {}
             SourceControlDiscardTargetFileChanges => {
                 if let Some(diff) = data
                     .and_then(|data| serde_json::from_value::<FileDiff>(data).ok())
@@ -1342,9 +1338,7 @@ impl WindowTabData {
                     }
                 }
             }
-            SourceControlDiscardWorkspaceChanges => {
-                // TODO:
-            }
+            SourceControlDiscardWorkspaceChanges => {}
 
             // ==== UI ====
             ShowAbout => {
